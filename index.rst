@@ -15,6 +15,7 @@
    sphinx_md/connection-config-cn.md
    sphinx_md/jobs-config-cn.md
    sphinx_md/apiserver-cn.md
+   sphinx_md/administration-cn.md
    sphinx_md/release-notes-cn.md
    sphinx_md/faq-cn.md
 
