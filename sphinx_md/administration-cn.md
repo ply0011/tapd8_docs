@@ -1,6 +1,6 @@
 # 管理
 
-## Tapdata 中间库 MongoDB
+## 中间库 MongoDB
 
 ### 性能
 
