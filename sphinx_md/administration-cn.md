@@ -8,10 +8,6 @@
 
 - 系统 ulimit 设置：[https://docs.mongodb.com/manual/reference/ulimit/](https://docs.mongodb.com/manual/reference/ulimit/)
 
-### 配置文件
-
-- 运行中的配置文件：
-
 ### 运维
 
 - 升级 mongodb：[https://docs.mongodb.com/manual/tutorial/upgrade-revision/](https://docs.mongodb.com/manual/tutorial/upgrade-revision/)
