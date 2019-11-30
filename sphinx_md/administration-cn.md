@@ -43,26 +43,26 @@
     - 当任务被编辑：只有当任务被编辑时，会发送告警邮件
     - 当任务开启：只有当任务被开启时，会发送告警邮件
 
-!(告警邮件设置)[../images/admin-cn-1.png]
+![告警邮件设置](../images/admin-cn-1.png)
 
 #### 管理模块
 
-1. 探测管理模块端口（默认是3030）是否存活，若可以访问则服务存活，反之则不存活。
+- 探测管理模块端口（默认是3030）是否存活，若可以访问则服务存活，反之则不存活。
 
-2. 进入 tapdata 软件目录，执行指令： `./tapdata status`，查看 frontend PID 是否有值，有值则为存活，反之则不存活
+- 进入 tapdata 软件目录，执行指令： `./tapdata status`，查看 frontend PID 是否有值，有值则为存活，反之则不存活
 
-3. 在管理模块所在的服务器上，执行 `ps -ef | grep node | grep management | grep -v grep`，查看是否有进程存活，有结果返回则为存活，反之则不存活
+- 在管理模块所在的服务器上，执行 `ps -ef | grep node | grep management | grep -v grep`，查看是否有进程存活，有结果返回则为存活，反之则不存活
 
 #### 数据发布
 
-1. 探测数据发布服务端口（默认是3080）是否存活，若可以访问则服务存活，反之则不存活。
+- 探测数据发布服务端口（默认是3080）是否存活，若可以访问则服务存活，反之则不存活。
 
-2. 进入 tapdata 软件目录，执行指令： `./tapdata status`，查看 api server manage PID 是否有值，有值则为存活，反之则不存活
+- 进入 tapdata 软件目录，执行指令： `./tapdata status`，查看 api server manage PID 是否有值，有值则为存活，反之则不存活
 
-3. 在数据发布服务所在的服务器上，执行 `ps -ef | grep node | grep apiserver | grep -v grep`，查看是否有进程存活，有结果返回则为存活，反之则不存活
+- 在数据发布服务所在的服务器上，执行 `ps -ef | grep node | grep apiserver | grep -v grep`，查看是否有进程存活，有结果返回则为存活，反之则不存活
 
 #### 数据采集
 
-1. 进入 tapdata 软件目录，执行指令： `./tapdata status`，查看 backend PID 是否有值，有值则为存活，反之则不存活
+- 进入 tapdata 软件目录，执行指令： `./tapdata status`，查看 backend PID 是否有值，有值则为存活，反之则不存活
 
-2. 在数据发布服务所在的服务器上，执行 `ps -ef | grep java | grep -v grep`，查看是否有进程存活，有结果返回则为存活，反之则不存活
+- 在数据发布服务所在的服务器上，执行 `ps -ef | grep java | grep -v grep`，查看是否有进程存活，有结果返回则为存活，反之则不存活
