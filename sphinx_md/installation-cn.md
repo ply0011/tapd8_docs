@@ -88,6 +88,7 @@ Please enter tapdata port. (Default: 3030)
 说明：网页浏览端口，默认3030
 这里输入：3030
 
+---
 
 ```
 Please enter backend url, comma separated list. (Default: http://127.0.0.1:3030)
@@ -95,6 +96,7 @@ Please enter backend url, comma separated list. (Default: http://127.0.0.1:3030)
 说明：后端地址，默认 http://127.0.0.1:3030
 这里输入：http://127.0.0.1:3030
 
+---
 
 ```
 Please enter api server port. (Default: 3080)
@@ -102,6 +104,7 @@ Please enter api server port. (Default: 3080)
 说明：API Server 端口，默认3080
 这里输入：3080
 
+---
 
 ```
 Does MongoDB require username/password?((y/n))
@@ -129,6 +132,7 @@ Does MongoDB require username/password?((y/n))
     说明：中间库 mongodb 的账号认证数据库
     这里输入：mongodb 用户名认证数据库
 
+---
 
 ```
 Does MongoDB require TLS/SSL?(y/n):
@@ -155,6 +159,8 @@ Does MongoDB require TLS/SSL?(y/n):
     ```
     说明：中间库 mongodb 的 certificate key 的文件密码
     这里输入：回车
+
+---
 
 ```
 Please enter MongoDB host, port, database name(Default: 127.0.0.1:27017/tapdata):
