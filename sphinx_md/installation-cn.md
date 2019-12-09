@@ -180,7 +180,7 @@ Please enter MongoDB host, port, database name(Default: 127.0.0.1:27017/tapdata)
 
 **注意：** 登陆后请立即前往菜单【系统管理】-【用户管理】中修改 admin@admin.com 账号的密码
 
-#### 3.4 注意事项
+### 3.4 注意事项
 
 为了保证您的服务能够正常使用，请提前确认防火墙开通：
 
